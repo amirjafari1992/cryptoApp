@@ -1,0 +1,32 @@
+{
+  "name": "items",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "number",
+      "required": true
+    },
+    "date": {
+      "type": "string"
+    },
+    "wallet": {
+      "type": "string",
+      "required": true
+    },
+    "marketValue": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
